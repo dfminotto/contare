@@ -1,0 +1,29 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.nav__items {
+    display: flex;
+    gap: 20px;
+}
+
+.nav__item {
+    list-style-type: none;
+}
+
+.nav__item-link {
+    text-decoration: none;
+    color: #F4F1ED;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: normal;
+    font-family: "Proxima Nova", sans-serif;
+}
+
+.nav__item-link:hover {
+    color: #D4A524;
+    border-bottom: #D4A524 2px solid;
+}

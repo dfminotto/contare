@@ -1,0 +1,21 @@
+.header {
+    background-color: #2e2d2d;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    padding: 40px 80px 100px;
+}
+
+.header__title {
+    line-height: 1.15;
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #D4A524;
+    
+}
+
+.header__subtitle {
+    color: #F4F1ED;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+}

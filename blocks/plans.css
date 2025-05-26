@@ -1,0 +1,100 @@
+.plans {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #ab8f2b;
+    width: 100%;
+}
+
+.plans__title {
+    margin-left: 180px;
+    text-align: start;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 12px;
+    margin-bottom: 20px;
+}
+
+.plans__subtitle {
+    margin-left: 180px;
+    text-align: start;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.15;
+}
+
+.plans__span-subtitle {
+    color: #F4F1ED;
+}
+
+.plans__cards {
+    display: flex;
+    width: 1200px;
+    gap: 40px;
+    margin: 40px auto;
+    
+}
+
+.plans__card {
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F1ED;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+}
+
+.plans__card-title {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2e2d2d;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.plans__card-text {
+    line-height: 1.15;
+    font-size: 18px;
+    font-weight: normal;
+    color: #2e2d2d;
+    text-align: center;
+    border-top: 1px solid #2e2d2d;
+}
+
+.plans__span {
+    color: #2e2d2d;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.plans__span-information {  
+    display: block; 
+    color: #5e5e5e; 
+    font-style: italic; 
+    text-align: end;
+    margin: 2px 30px 20px 0;}
+
+.plans__items {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    border-bottom: 1px solid #2e2d2d;
+    min-height: 140px;
+}
+
+.plans__item {     
+   line-height: 30px;
+}
+
+.plans__card-button {
+    width: 80%;
+    height: 50px;
+    background-color: #2e2d2d;
+    color: #F4F1ED;
+    border: none;
+    border-radius: 10px;
+    margin: 20px auto;
+    font-size: 18px;
+    font-weight: bold;
+}

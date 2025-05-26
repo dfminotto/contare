@@ -1,0 +1,31 @@
+.two-columns {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.two-column__brief {
+    line-height: 1.15;
+    font-size: 30px;
+    margin: auto 20px auto 0;
+    font-weight: bold;
+    
+}
+
+.two-column__main-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.two-column__paragraph {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.two-column__span {
+    color: #D4A524;
+    font-size: 20px;
+}

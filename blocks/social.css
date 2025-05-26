@@ -1,0 +1,15 @@
+.social {
+    display: flex;
+    gap: 20px;
+}
+
+.social__item-icon {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.social__item-icon:hover {
+    cursor: pointer;
+}
