@@ -3,6 +3,7 @@
     max-width: 2000px;
     margin: 0 auto;
     font-family: 'Roboto', Arial, sans-serif;
+    position: relative;
 }
 
 * {

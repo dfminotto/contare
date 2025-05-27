@@ -54,3 +54,9 @@
     height: 24px;
     margin-right: 10px;
 }
+
+.footer__legal {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
