@@ -46,7 +46,7 @@
 .plans__cards {
     display: flex;
     justify-content:center;
-    margin: 0 auto;
+    margin: 60px auto;
     flex-wrap: wrap;
     max-width: 1200px;
     width: 100%;
