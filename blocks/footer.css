@@ -1,6 +1,6 @@
 .footer {
     background-color: rgb(46, 45, 45);
-    height: 400px;
+    height: 420px;
     display: flex;
     flex-direction: column;
     padding: 80px 80px 40px;
@@ -25,6 +25,11 @@
     font-size: 16px;
     line-height: 24px;
     font-weight: normal;
+}
+
+.footer__text-copyright {
+    margin-top: auto;
+    font-size: 14px;
 }
 
 .footer__contacts {
@@ -53,10 +58,4 @@
     width: 24px;
     height: 24px;
     margin-right: 10px;
-}
-
-.footer__legal {
-    position: fixed;
-    bottom: 0;
-    right: 0;
 }

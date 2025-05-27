@@ -7,6 +7,7 @@
 }
 
 .logo-size {
-    width: 154px;
-    height: 32px;
+    width: 250px;
+    height: 62px;
+    object-fit: cover;
 }
