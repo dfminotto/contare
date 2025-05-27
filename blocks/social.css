@@ -3,11 +3,24 @@
     gap: 20px;
 }
 
-.social__item-icon {
+.social__item {
     display: flex;
+    text-decoration: none;
+    color: #F4F1ED;    
+    font-size: 16px;
+    font-weight: 400;
+    align-items: center;
+}
+
+.social__item-icon {
     width: 24px;
     height: 24px;
-    border-radius: 50%;
+}
+
+.social__item-icon-footer {
+    display: inline-block;
+    align-items: center;
+    margin-right: 10px;
 }
 
 .social__item-icon:hover {

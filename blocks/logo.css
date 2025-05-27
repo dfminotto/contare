@@ -2,6 +2,10 @@
    flex-basis: 711px;
 }
 
+.logo-footer {
+    flex-basis: 0;
+}
+
 .logo-size {
     width: 154px;
     height: 32px;

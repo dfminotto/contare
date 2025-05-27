@@ -2,20 +2,22 @@
     display: flex;
     width: 90%;
     margin: 0 auto;
+    justify-content: space-between;
 }
 
 .two-column__brief {
-    line-height: 1.15;
+    line-height: 1.25;
     font-size: 30px;
-    margin: auto 20px auto 0;
+    margin: auto 20px auto 20px;
     font-weight: bold;
-    
+    flex-basis: 400px;
 }
 
 .two-column__main-text {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    flex: 1;
 }
 
 
@@ -23,6 +25,13 @@
     line-height: 34px;
     font-size: 24px;
     font-weight: normal;
+}
+
+.two-column__span-header {
+    color: #D4A524;
+    font-size: 20px;
+    display: block;
+    margin-top: 20px;
 }
 
 .two-column__span {

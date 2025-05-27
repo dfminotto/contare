@@ -5,9 +5,25 @@
     margin-bottom: 120px;
 }
 
+/* .nav-footer {
+    display: flex;
+    justify-content: column;
+} */
+
 .nav__items {
     display: flex;
     gap: 20px;
+}
+
+.nav__items-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #F4F1ED;
+    font-size: 18px;
+    line-height: 1.15;
+    font-weight: bold;
+    height: 100%;
 }
 
 .nav__item {
@@ -20,7 +36,6 @@
     font-size: 16px;
     line-height: 18px;
     font-weight: normal;
-    font-family: "Proxima Nova", sans-serif;
 }
 
 .nav__item-link:hover {
