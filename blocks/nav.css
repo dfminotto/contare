@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 120px;
-    gap: 20px;
+    gap: 40px;
 }
 
 .nav__items {
@@ -27,6 +27,7 @@
 }
 
 .nav__item-link {
+    white-space: nowrap;
     text-decoration: none;
     color: #F4F1ED;
     font-size: 16px;
@@ -42,10 +43,27 @@
 @media screen and (max-width: 768px) {
     .nav {
         max-width: 768px;
-        margin: 0 10px 120px;        
+        margin: 0 10px 120px;    
+        gap: 15px;    
+        /* flex-wrap: wrap; */
+    }
+    .nav__items {
+        /* order: 3; */
     }
     .nav__item-link {
         font-size: 14px;
         white-space: nowrap;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    .nav{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .nav__items {
+        order: 3;
+        justify-content: center;
+        flex-basis: 100%;
     }
 }

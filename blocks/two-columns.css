@@ -41,12 +41,21 @@
 }
 
 @media screen and (max-width: 768px) {
+    .two-columns {
+        display: flex;
+        flex-direction: column;
+    }
     .two-column__brief {
         gap: 10px;
-        flex-basis: 290px;
+        /* flex-basis: 290px; */
+        max-height: 80px;
+        margin-bottom: 50px;
     }
-
+    .two-column__main-text{
+        margin: 0;
+    }
     .two-column__paragraph {
         font-size: 16px;
+        margin: 0;
     }
 }

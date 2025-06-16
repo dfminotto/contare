@@ -14,7 +14,23 @@
 }
 
 @media screen and (max-width: 768px) {
+    .logo{
+        /* order: 1; */
+        /* min-width: 80px; */
+        max-width: 220px;
+    }
     .logo-size {
         max-width: 220px;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    .logo {
+        order: 1;
+        flex: 1 1 40%;
+        max-width: 220px;
+    }
+    .logo-size {
+        display: flex;
     }
 }
