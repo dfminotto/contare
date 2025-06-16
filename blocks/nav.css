@@ -3,12 +3,8 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 120px;
+    gap: 20px;
 }
-
-/* .nav-footer {
-    display: flex;
-    justify-content: column;
-} */
 
 .nav__items {
     display: flex;
@@ -41,4 +37,15 @@
 .nav__item-link:hover {
     color: #D4A524;
     border-bottom: #D4A524 2px solid;
+}
+
+@media screen and (max-width: 768px) {
+    .nav {
+        max-width: 768px;
+        margin: 0 10px 120px;        
+    }
+    .nav__item-link {
+        font-size: 14px;
+        white-space: nowrap;
+    }
 }

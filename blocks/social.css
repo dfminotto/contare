@@ -26,3 +26,10 @@
 .social__item-icon:hover {
     cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+    .social__item-icon {
+        width: 20px;
+        height: 20px;
+    }
+}

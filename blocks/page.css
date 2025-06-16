@@ -12,6 +12,18 @@
     box-sizing: border-box;
 }
 
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
     scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 768px) {
+    .page {
+        max-width: 768px;
+    }
 }

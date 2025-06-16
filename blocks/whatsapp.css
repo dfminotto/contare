@@ -5,6 +5,7 @@
     bottom: 40px;
     right: 80px;
     display: flex;
+    z-index: 2;
 }
 
 .whatsapp__button{
@@ -41,8 +42,20 @@
     position: absolute;
     right: -80px;
     bottom: -20px;
+    z-index: 2;
 }
 
 .whatsapp__icon:hover {
     cursor: pointer;
+}
+
+@media screen and (max-width:768px){
+    .whatsapp{
+        max-width: 130px;
+        height: auto;
+    }
+    .whatsapp__icon {
+        width: 100px;
+        height: auto;
+    }
 }

@@ -7,7 +7,14 @@
 }
 
 .logo-size {
-    width: 250px;
-    height: 62px;
-    object-fit: cover;
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 768px) {
+    .logo-size {
+        max-width: 220px;
+    }
 }
