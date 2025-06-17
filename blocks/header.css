@@ -61,9 +61,3 @@
     }
 }
 
-@media screen and (max-width: 555) {
-    .nav {
-        display: flex;
-        flex-direction: column;
-    }
-}
