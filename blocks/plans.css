@@ -59,8 +59,8 @@
     flex-wrap: wrap;
     background-color: #F4F1ED;
     border-radius: 10px;
-    width: 100%;
     max-width: 350px;
+    width: 100%;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
 }
 
@@ -135,5 +135,20 @@
     .plans__subtitle {
         max-width: 720px;
         margin: 0 10px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .plans__title {
+        font-size: 24px;
+    }
+    .plans__subtitle {
+        font-size: 48px;
+    }
+    .plans__card {
+        max-width: 280px;
+        width: 100%;
+        /* max-height: 380px; */
+        height: 100%;
     }
 }

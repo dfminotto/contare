@@ -69,3 +69,14 @@
         font-size: 16px;
     }
 }
+
+@media screen and (max-width: 380px) {
+    .cards__heading {
+        height: auto;
+        margin-bottom: 10px;   
+        line-height: 1.12;   
+    }
+    h4 {
+        height: auto;
+    }
+}

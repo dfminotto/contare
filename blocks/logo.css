@@ -33,4 +33,7 @@
     .logo-size {
         display: flex;
     }
+     .logo-size_footer {
+        width: 120px;
+    }
 }

@@ -43,12 +43,8 @@
 @media screen and (max-width: 768px) {
     .nav {
         max-width: 768px;
-        margin: 0 10px 120px;    
+        margin: 0 10px 60px;    
         gap: 15px;    
-        /* flex-wrap: wrap; */
-    }
-    .nav__items {
-        /* order: 3; */
     }
     .nav__item-link {
         font-size: 14px;
@@ -65,5 +61,26 @@
         order: 3;
         justify-content: center;
         flex-basis: 100%;
+    }
+     .nav-footer {
+        margin-bottom: 0;
+    }
+    .nav__items-footer {
+        justify-content: start;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .nav__items{
+        gap: 15px;
+    }
+    .nav__item{
+        font-size: 16px;
+    }
+    .nav__items-footer {
+        font-size: 16px;
+    }
+    .nav__item-link-footer {
+        font-size: 12px;
     }
 }

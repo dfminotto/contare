@@ -39,3 +39,12 @@
         line-height: 1.15;
     }
 }
+
+@media screen and (max-width: 380px) {
+    .section-title {
+        font-size: 32px;
+    }
+    .section-subtitle {
+        font-size: 18px;
+    }
+}

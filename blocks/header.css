@@ -39,7 +39,8 @@
     .header{
         max-width: 768px;
         width: 100%;
-        padding: 40px 0 100px;
+        padding: 40px 0 80px;
+        height: auto;
     }
     .header__title {
         max-width: 740px;
@@ -50,6 +51,7 @@
         max-width: 740px;
         font-family: 16px;
         margin: 20px 10px;
+        font-size: 20px;
     }
 }
 
@@ -57,7 +59,9 @@
     .header {
         max-width: 320px;
         width: 100%;
-
+    }
+    .header__title {
+        font-size: 40px;
     }
 }
 
