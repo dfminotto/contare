@@ -1,82 +1,86 @@
 .cards {
-    width: 100%;
-    display: flex;       
+  width: 100%;
+  display: flex;
 }
 
 .cards__items {
-    display: flex;
-    gap: 40px;
-    margin: 40px auto;
-    max-width: 1200px;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin: 60px auto;
+  width: 100%;
+  max-width: 1200px;
+  justify-content: center;
 }
 
 .cards__item {
-    display: flex;
-    flex-direction: column;
-    max-width: 200px;
-    height: auto;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  text-align: center;
 }
 
 .cards__heading {
-    line-height: 34px;
-    font-size: 24px;
-    font-weight: normal;
-    color: #D4A524;
-    text-align: center;
-    min-height: 66px;
+  line-height: 34px;
+  grid-area: heading;
+  font-size: 24px;
+  font-weight: normal;
+  color: #f4f1ed;
+  text-align: center;
+  align-items: center;
+  min-height: 120px;
 }
 
 .cards__image {
-    width: 160px;
-    height: 160px;
-    height: 160px;
-    margin: 20px auto 20px;
-    border-radius: 10%;
+  width: 160px;
+  height: 160px;
+  margin: 20px auto 20px;
+  grid-area: image;
+  border-radius: 10%;
 }
 
 .cards__image:hover {
-    cursor: pointer;
-    width: 170px;
-    height: 170px;
-    transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  width: 170px;
+  height: 170px;
+  transition: all 0.2s ease-in-out;
 }
 
 .cards__text {
-    line-height: 1;
-    font-size: 18px;
-    font-weight: normal;
-    color: #F4F1ED;
-    text-align: center;
-    text-align: center;
+  line-height: 1;
+  font-size: 18px;
+  font-weight: normal;
+  grid-area: text;
+  color: #f4f1ed;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
-    .cards__items {
-        max-width: 768px;
-    }
-    .cards__image {
-        height: 140px;
-    }
-    .cards__heading {
-        font-size: 20px;
-        line-height: 1.25;
-        min-height: 54px;
-        margin-bottom: 10px;
-    }
-    .cards__text {
-        font-size: 16px;
-    }
+  .cards__items {
+    max-width: 768px;
+  }
+  .cards__image {
+    height: 140px;
+  }
+  .cards__heading {
+    font-size: 20px;
+    line-height: 1.25;
+    min-height: 54px;
+    margin-bottom: 10px;
+  }
+  .cards__text {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 380px) {
-    .cards__heading {
-        height: auto;
-        margin-bottom: 10px;   
-        line-height: 1.12;   
-    }
-    h4 {
-        height: auto;
-    }
+  .cards__heading {
+    height: auto;
+    margin-bottom: 10px;
+    line-height: 1.12;
+  }
+  h4 {
+    height: auto;
+  }
 }
