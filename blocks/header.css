@@ -2,7 +2,6 @@
   background-image: url("../images/header.jpg");
   background-size: cover;
   height: 80vh;
-  /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); */
   padding: 40px 80px 100px;
   position: relative;
   z-index: 0;
@@ -15,26 +14,15 @@
   position: absolute;
   top: 0;
   left: 0;
-  /* background-color: rgba(207, 103, 102, 0.25); */
-  /* background-color: rgba(255, 206, 0, 0.25); */
-  /* background-color: rgba(217, 217, 217, 0.35); */
-  /* background-color: rgba(46, 45, 45, 0.8); */
   background-color: rgba(23, 0, 171, 0.3);
-  /* background: linear-gradient(rgba(23, 0, 171, 0.55), rgba(102, 118, 0, 0.55)); */
-  /* background: linear-gradient(rgba(23, 0, 171, 0.25), rgba(87, 188, 144, 0.45)); */
-  /* background-color: rgba(248, 27, 132, 0.25); */
-  /* background-color: rgba(76, 222, 245, 0.25); */
-  /* background-color: rgba(164, 213, 85, 0.25); */
   z-index: -1;
 }
 
 .header__title {
-  /* max-width: 700px; */
   line-height: 1.15;
   font-size: 60px;
   margin-bottom: 20px;
   font-weight: bold;
-  /* color: #1700ab; */
   color: #ffffff;
 }
 
