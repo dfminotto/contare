@@ -1,0 +1,26 @@
+{
+  "name": "cmgrupo-website",
+  "version": "2.0.0",
+  "type": "module",
+  "description": "Website premium para CM Grupo Contábil",
+  "author": "CM Grupo Contábil",
+  "private": true,
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "framer-motion": "^11.3.0",
+    "lucide-react": "^0.414.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "tailwindcss": "^3.4.7",
+    "postcss": "^8.4.39",
+    "autoprefixer": "^10.4.19",
+    "vite": "^5.3.4"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  }
+}
