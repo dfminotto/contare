@@ -1,0 +1,42 @@
+.logo {
+   flex-basis: 711px;
+}
+
+.logo-footer {
+    flex-basis: 0;
+}
+
+.logo-size {
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 768px) {
+    .logo{
+        /* order: 1; */
+        /* min-width: 80px; */
+        max-width: 220px;
+    }
+    .logo-size {
+        max-width: 220px;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    .logo_small-screen {
+        order: 1;
+        flex: 1 1 40%;
+        max-width: 220px;
+    }
+    .logo-size {
+        display: flex;
+    }
+    .logo-footer {
+        width: 160px;
+    }
+     .logo-size_footer {
+        width: 160px;
+    }
+}
