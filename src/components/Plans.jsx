@@ -14,7 +14,7 @@ const plans = [
       'Consultoria / assessoria',
     ],
     cta: 'Solicitar proposta',
-    waMsg: 'Ol%C3%A1%2C%20vim%20do%20site%20e%20quero%20mais%20informa%C3%A7%C3%B5es!',
+    waMsg: 'Ol%C3%A1%2C%20em%20que%20podemos%20ajudar%3F',
   },
   {
     name: 'Plus',
@@ -28,7 +28,7 @@ const plans = [
       'Suporte online prioritário',
     ],
     cta: 'Solicitar proposta',
-    waMsg: 'Ol%C3%A1%2C%20vim%20do%20site%20e%20quero%20mais%20informa%C3%A7%C3%B5es!',
+    waMsg: 'Ol%C3%A1%2C%20em%20que%20podemos%20ajudar%3F',
   },
   {
     name: 'Premium',
@@ -43,7 +43,7 @@ const plans = [
       '3 reuniões mensais',
     ],
     cta: 'Solicitar proposta',
-    waMsg: 'Ol%C3%A1%2C%20vim%20do%20site%20e%20quero%20mais%20informa%C3%A7%C3%B5es!',
+    waMsg: 'Ol%C3%A1%2C%20em%20que%20podemos%20ajudar%3F',
   },
 ];
 
@@ -149,7 +149,7 @@ export default function Plans() {
 
                 {/* CTA */}
                 <a
-                  href={`https://wa.me/5541984062905?text=${plan.waMsg}`}
+                  href={`https://wa.me/554134062905?text=${plan.waMsg}`}
                   target="_blank"
                   rel="noreferrer"
                   className={`flex items-center justify-center gap-2 w-full py-3.5 rounded-2xl font-bold text-sm transition-all duration-300

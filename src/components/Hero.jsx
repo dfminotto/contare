@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion';
 import { ArrowRight, MessageCircle, TrendingUp, Users, Award, Headphones } from 'lucide-react';
 
-const WA_PROPOSTA = 'https://wa.me/5541984062905?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20quero%20mais%20informa%C3%A7%C3%B5es!';
-const WA = 'https://wa.me/5541984062905?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20quero%20mais%20informa%C3%A7%C3%B5es!';
+const WA_PROPOSTA = 'https://wa.me/554134062905?text=Ol%C3%A1%2C%20em%20que%20podemos%20ajudar%3F';
+const WA = 'https://wa.me/554134062905?text=Ol%C3%A1%2C%20em%20que%20podemos%20ajudar%3F';
 
 const stats = [
   { icon: TrendingUp, label: 'Anos de experiência', value: '+10' },
